@@ -1,0 +1,56 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-top: 50px ;
+  margin-bottom: 15px;
+  text-align: center ;
+  color: black ; 
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+section {
+  position: relative;
+  background-color: #9E9E9E ;
+  color: black ; 
+  height: 150px ;
+  border: 2px solid black; 
+  margin-right:  15px ;
+  margin-bottom: 15px ;
+  padding-left: 10px ;
+}
+
+.title {
+  text-align: center; 
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 150% ; 
+  font-style: italic; 
+  float: right;
+  border: 1.5px solid black ;
+  padding: 5px ;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%; 
+}
+
+/********** Large devices only **********/
+@media (min-width:  992px) {
+ .col-lg-3{
+    float: left;
+    width: 33.333%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width:  768px) and (max-width: 991px) {
+ .col-md-2 {
+    float: left;
+    width: 50%;
+  }
+}
