@@ -3,7 +3,7 @@
 }
 h1 {
   margin-top: 50px ;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-align: center ;
   color: black ; 
   font-family: sans-serif;
@@ -14,13 +14,13 @@ h1 {
 section {
   background-color: #9E9E9E ;
   color: black ; 
-  height: 150px ;
+  height: 200px ;
   border: 2px solid black;
   margin-right: auto;
   margin-left: auto;
   margin-left: 15px ;
-  padding-left: 10px ;
   margin-bottom: 15px ;
+  overflow: auto;
 }
 
 .title {
@@ -43,6 +43,7 @@ section {
   font-weight: 300;
   margin-top: 10px ;
   clear: both;
+  padding: 10px ;
 }
 
 
