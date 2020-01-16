@@ -15,7 +15,7 @@ section {
   background-color: #9E9E9E ;
   color: black ; 
   height: 200px ;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-right: auto;
   margin-left: auto;
   margin-left: 15px ;
@@ -30,12 +30,22 @@ section {
   font-size: 150% ; 
   font-style: italic; 
   float: right;
-  border: 1.5px solid black ;
+  border: 1px solid black ;
   padding: 3px 20px 3px 20px  ; 
 }
 
 .row {
   width: 100%; 
+}
+#one {
+  background-color: #ED92A2
+  
+}
+#two {
+  background-color: #CE3337
+}
+#three {
+  background-color: #E3BE66
 }
 
 .hola {
