@@ -1,4 +1,3 @@
-/********** Base styles **********/
 * {
   box-sizing: border-box;
 }
@@ -13,14 +12,15 @@ h1 {
 }
 
 section {
-  position: relative;
   background-color: #9E9E9E ;
   color: black ; 
   height: 150px ;
-  border: 2px solid black; 
-  margin-right:  15px ;
-  margin-bottom: 15px ;
+  border: 2px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: 15px ;
   padding-left: 10px ;
+  margin-bottom: 15px ;
 }
 
 .title {
@@ -31,15 +31,21 @@ section {
   font-style: italic; 
   float: right;
   border: 1.5px solid black ;
-  padding: 5px ;
+  padding: 3px 20px 3px 20px  ; 
 }
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%; 
 }
 
-/********** Large devices only **********/
+.hola {
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-top: 10px ;
+  clear: both;
+}
+
+
 @media (min-width:  992px) {
  .col-lg-3{
     float: left;
@@ -47,10 +53,13 @@ section {
   }
 }
 
-/********** Medium devices only **********/
 @media (min-width:  768px) and (max-width: 991px) {
  .col-md-2 {
     float: left;
     width: 50%;
+  }
+  .col-sm{
+    float: left;
+    width: 100% ;
   }
 }
