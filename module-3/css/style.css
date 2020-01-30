@@ -1,0 +1,105 @@
+body {
+	color: black ; 
+	font-family: 
+	font-family: 'Abel', sans-serif;
+}
+
+
+#header-nav {
+
+	background-color: #9E9E9E ;
+	border-radius: 0 ;
+	border: 0;
+	padding: 0;
+}
+
+.navbar-brand {
+	margin: 10px 15px 30px ;
+}
+
+.navbar-brand h1 {
+    font-family: 'Abel', sans-serif;
+	margin-top: 0;
+    margin-bottom: 0;
+    color: black ;
+    line-height: .75;  
+    font-size: 3em;
+    	font-weight: bold;
+  
+	text-shadow: 1px 1px 1px white ;
+} 
+
+.navbar-brand a:hover{	
+	text-decoration: none;
+}
+ 
+
+#category-list {
+	margin-top: 10px;
+}
+
+
+#category-list  a{
+	font-family: 'Abel', sans-serif;
+	background-color:  #AFAFAF ;
+	color: black;
+	font-size: 1.8em ;
+}
+#category-list a:hover {
+
+	background-color: white; 
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+
+
+
+.box-text {
+	background-color: #9E9E9E ; 
+}
+
+h1{
+	margin-bottom: 20px;
+}
+
+.wraper {
+	margin-left: 20px ;
+	margin-right: 20px;
+}
+
+ {
+	margin-top: 20px; 
+}
+
+#menu {
+	font-family: 'Abel', sans-serif;
+	font-size: 3.8em;
+	font-weight: bold;
+}
+
+
+section h2 {
+   font-family: 'Abel', sans-serif;
+   font-size: 3em;
+   padding-top: 20px ;
+   margin-bottom: 30px;
+   font-weight: bold;
+}
+
+section p {
+	font-family: 'Abel', sans-serif;
+	padding: 0 30px 30px ;
+   font-weight: bold;
+   font-size: 20px;
+
+}
+
+@media (max-width: 767px) {
+ .wraper {
+	margin-left: 40px ;
+	margin-right: 40px;
+  }	
+}
