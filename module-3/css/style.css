@@ -62,9 +62,7 @@ body {
 }
 
 
-.wraper {
-	margin-left: 20px ;
-	margin-right: 20px;
+#wraper {margin: auto;
 }
 
  {
@@ -92,11 +90,4 @@ section p {
    font-weight: bold;
    font-size: 20px;
 
-}
-
-@media (max-width: 767px) {
- .wraper {
-	margin-left: 40px ;
-	margin-right: 40px;
-  }	
 }
